@@ -1,8 +1,8 @@
 # Granular Flow Models
 Granular flow constitutive model add-ons for ABAQUS  
 
-![image](https://github.com/idaholab/GranularFlowModels/images/hopper_flowPattern.pdf)
-<img src="https://github.com/idaholab/GranularFlowModels/images/hopper_flowPattern.pdf">
+![image](https://github.com/idaholab/GranularFlowModels/tree/main/images/benchmark_moose_tough_continous_season_10.png)
+<img src="https://github.com/idaholab/GranularFlowModels/tree/main/images/benchmark_moose_tough_continous_season_10.png">
 
 
 The software is a list of User MATerial subroutines (VUMAT) of Abaqus/Explicit for modeling granular flow physics.  It includes:
