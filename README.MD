@@ -1,15 +1,16 @@
 # Granular Flow Models
 Granular flow constitutive model add-ons for ABAQUS  
 
-![image](https://github.com/idaholab/GranularFlowModels/tree/main/images/benchmark_moose_tough_continous_season_10.png)
-<img src="https://github.com/idaholab/GranularFlowModels/tree/main/images/benchmark_moose_tough_continous_season_10.png">
-
+<!-- ![image](images/benchmark_moose_tough_continous_season_10.png) -->
+<img src="images/hopper_flowPattern.png">
 
 The software is a list of User MATerial subroutines (VUMAT) of Abaqus/Explicit for modeling granular flow physics.  It includes:
 - density dependent Mohr-Coulomb model,
 - density dependent Drager-Prager\Cap model,
 - Gudehus-Bauer hypoplastic model, 
 - critical state-based NorSand model. 
+
+<img src="images/Constitutive_model_demo.png">
 
 Each of the subroutines uses explicit/implicit integration algorithms to updates stress and state variables with a given increment of strain following the corresponding constitutive law.
 
