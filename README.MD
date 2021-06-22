@@ -1,6 +1,10 @@
 # Granular Flow Models
 Granular flow constitutive model add-ons for ABAQUS  
 
+![image](https://github.com/idaholab/GranularFlowModels/images/hopper_flowPattern.pdf)
+<img src="https://github.com/idaholab/GranularFlowModels/images/hopper_flowPattern.pdf">
+
+
 The software is a list of User MATerial subroutines (VUMAT) of Abaqus/Explicit for modeling granular flow physics.  It includes:
 - density dependent Mohr-Coulomb model,
 - density dependent Drager-Prager\Cap model,
