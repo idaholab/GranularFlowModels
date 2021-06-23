@@ -56,7 +56,13 @@ Taking the hopper flow simulation using hypoplasticity as an example, we define 
 >*User Material, constants=12<br>
 > 1.381, 0.5003, 1.0623,   47.3,187549.,     1.,    0.3,    0.3 0.,     0.,     0.,     0.<br>
 
-The physical meaning of the 12 material constants are:
+The initial state of material (stress and void ratio) has to be defined. In particular, the intial void raito is tracked as one of the solution dependent varible in Abaqus. The number of initial values has to be equal to the value of ***Depvar*** defined in material. See the following example:
+>*Initial Conditions, type=STRESS <br>
+>element_set, sigma_11, sigma_22, sigma_33, sigma_12, sigma_23, sigma_13 <br>
+>*Initial Conditions, Type=Solution <br>
+>element_set, initial_void_ratio_value, 0.0001, 0 <br>
+
+The user material parameters are highlighted at the beginning of the VUMAT and their physical meaning are:
 1. ei0, maximum void ratio at atmosspheric pressure
 2. ei0, minimum void ratio at atmosspheric pressure
 3. ec0, critical void ratio at atmosspheric pressure
